@@ -3,17 +3,23 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 0;
     padding: 16px;
-    /* border-radius: 4px; */
-    display: flex;
-    justify-content: flex-end;
+    border-radius: 4px;
 }
 
-li{
-    float: right;
+
+
+.nav-list li{
+    float: left;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
 }
 
 li a{
-    display: block;
+      /* display: flex; */
+    /* justify-content: flex-end; */
+    list-style-type: none;
+    text-decoration: none;
 }
 #vendor-back{
     background-image: url(../vendor-images/justin-campbell-aP_hTfwXEkc-unsplash.jpg);
@@ -33,7 +39,8 @@ li a{
     max-width: 300px;
     margin: auto;
     text-align: center;
-    /* align-items: center; */
+    align-items: center;
+    display: block;
 }
   
 .title {
@@ -56,9 +63,9 @@ button {
   
 a {
     text-decoration: none;
-    font-size: 22px;
+    /* font-size: 22px; */
     color: black;
-    align-items: center;
+    /* align-items: center; */
 
 }
   
@@ -78,17 +85,17 @@ p{
 #display-phil{
     display: none;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
 }
 #display-swab{
     display: none;
-    padding: 60px;
+    padding: 30px;
     text-align: center;
 }
 
 #display-frank{
     text-align: center;
-    padding: 60px;
+    padding: 30px;
     display: none;
 }
 
@@ -145,4 +152,12 @@ p{
     background: #ea4c89;
     color: white;
 }
-  
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+#address{
+    text-align: center;
+}
