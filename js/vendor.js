@@ -1,14 +1,14 @@
 // UI
 $(document).ready(function(){
-    $('#philip').hover(function(){
+    $('#philip').click(function(){
         $('#display-phil').toggle();
     });
 
-    $('#swabra').hover(function(){
+    $('#swabra').click(function(){
         $('#display-swab').toggle();
     });
 
-    $('#frank').hover(function(){
+    $('#frank').click(function(){
         $('#display-frank').toggle();
-    })
+    });
 });

@@ -1,30 +1,234 @@
-body
-{
-  margin:0px; background-color:#27a465; color:#f7f7f7; font-family:Arial, Helvetica, sans-serif;
+body{
+  font-family: 'Roboto', sans-serif;
 }
-#main
+/*=============header section==================== */
+#header span
 {
-  width:600px; height:260px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
-  border-top:3px double #f1f1f1; border-bottom:3px double #f1f1f1; padding-top:20px;
+  font-size:1.3em;
+  font-weight: 1000;
+  color: #5C1B1B;
 }
-#main table
+#header .navbar
 {
-  font-family:"Comic Sans MS", cursive;
+font-size: 1.3em;
+}
+#header .navbar ul li
+{
+  margin: 0.7em;
+}
+
+#header .row .col1
+{
+  max-width: 100%;
+  overflow: hidden;
+}
+#header .row .col1 img
+{
+max-width: 100%;
+}
+#header .row .col2
+{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#header .row .col2 h1
+{
+  font-size: 3em;
+  font-weight: 1000;
 } 
-/* css code for textbox */
-#main .tb
+#header .row .col2 p
 {
- height:28px; width:230px; border:1px solid #27a465; color:#27a465; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;
+  font-size: 20px;
+}
+#header .row .col2 button
+{
+  background-color: #5C1B1B;
+  color: #fff;
+  font-size: 1.3em;
+  border-radius: 1.2em;
+  padding: 0.5em 1em;
+  border: none;
 }
 
-/* css code for button*/
-#main .btn
+
+/* Register */
+.register
 {
- width:80px; height:32px; outline:none;  font-weight:bold; border:0px solid #27a465; text-shadow: 0px 0.5px 0.5px #fff;	
- border-radius: 2px; font-weight: 600; color: #27a465; letter-spacing: 1px; font-size:14px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+  
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+  width: 40%;
+  margin: 4% auto 5%;
+  font-weight: 600;
+  padding: 4%;
+}
+.register h3
+{
+  text-align: center;
+  margin:1% auto 6%;
+  font-weight: 600;
 }
 
-#main .btn:hover
+.register .btn-class
 {
- background-color:#27a465; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+  text-align: center;
+}
+.register button
+{
+  margin: 5px auto 4px;
+  background-color: #601D1D;
+  font-weight: 600;
+  color: white;
+  width:12em;
+  padding: 5px;
+  text-align: center;
+}
+.register .row2
+{
+  margin: 10px auto 10px;
+  width: 90%;
+}
+.register .row2 div
+{
+  text-align: center;
+}
+.register button:hover
+{
+  color:wheat;
+}
+.register a
+{
+  text-decoration: none;
+  color: black;
+}
+.register a:hover
+{
+  color:#601D1D;
+}
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) 
+{
+
+  /*=============header section==================== */
+ 
+  #navbar .row
+  {
+      height: 80vh;
+  }
+  #header .row .col1
+  {
+      max-width: 100%;
+      overflow: hidden;
+  }
+ #header .row .col2
+  {
+      padding: 20%;
+  }
+ 
+  #header .row .col2 h1
+  {
+      font-size: 1.7em;
+  } 
+  #header .row .col2 p
+  {
+      font-size: 13px;
+  }
+  #header .row .col2 button
+  {
+      background-color: #5C1B1B;
+      color: #fff;
+      font-size: 1em;
+      border-radius: 1.2em;
+      padding: 0.5em 1em;
+      border: none;
+  }
+ 
+ 
+  /* ==================Register======================= */
+  .register
+  {
+      width: 70%;
+      margin: 3% auto 5%;
+      font-size: 13px;
+  }
+  .register h3
+  {
+      margin:5% auto 6%;
+      font-weight: 600;
+      font-size: 16px;
+  }
+
+  .register button
+  {
+      font-size: 13px;
+  }
+  .register .row2
+  {
+      margin: 10px auto 10px;
+      width: 90%;
+  }
+  .register .row2 div
+  {
+      text-align: center;
+  }
+ 
+}
+/*=============header section==================== */
+#header span
+{
+    font-size:1.3em;
+    font-weight: 1000;
+    color: #5C1B1B;
+}
+#header .navbar
+{
+font-size: 1.3em;
+}
+#header .navbar ul li
+{
+    margin: 0.7em;
+}
+
+#header .row .col1
+{
+    max-width: 100%;
+    overflow: hidden;
+}
+#header .row .col1 img
+{
+ max-width: 100%;
+}
+#header .row .col2
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header .row .col2 h1
+{
+    font-size: 3em;
+    font-weight: 1000;
+} 
+#header .row .col2 p
+{
+    font-size: 20px;
+}
+#header .row .col2 button
+{
+    background-color: #5C1B1B;
+    color: #fff;
+    font-size: 1.3em;
+    border-radius: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
 }

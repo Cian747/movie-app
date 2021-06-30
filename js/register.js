@@ -62,9 +62,9 @@ function registration()
 		}
 		else
 		{				                            
-               alert('Thank You for Login & You are Redirecting to Campuslife Website');
+               alert('Welcome to Tazama movie shop. Proceed to login.');
 			   // Redirecting to other page or webste code. 
-			   window.location = "http://www.campuslife.co.in"; 
+			   window.location = "/login.html"; 
 		}
 	}
 	function clearFunc()
