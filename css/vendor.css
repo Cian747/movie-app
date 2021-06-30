@@ -6,8 +6,6 @@
     border-radius: 4px;
 }
 
-
-
 .nav-list li{
     float: left;
     display: flex;
@@ -16,8 +14,8 @@
 }
 
 li a{
-      /* display: flex; */
-    /* justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     text-decoration: none;
 }
@@ -36,7 +34,8 @@ li a{
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 600px;
+    width: 100%;
     margin: auto;
     text-align: center;
     align-items: center;
@@ -63,10 +62,9 @@ button {
   
 a {
     text-decoration: none;
-    /* font-size: 22px; */
     color: black;
-    /* align-items: center; */
-
+    align-items: center;
+    margin-right: auto;
 }
   
 button:hover, a:hover {
