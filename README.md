@@ -10,7 +10,7 @@ With the Tazama App you can order your favourite movies and series from the comf
 https://github.com/Cian747/movie-app.git
 ```
 * Make your edits and test. 
-* crete a gh-pages branch and push to your repository
+* create a gh-pages branch and push to your repository
 * Deploy site
 
 ## Known Bugs
