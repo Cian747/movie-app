@@ -8,7 +8,7 @@
    
 }
 header {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../asset/background/background4.jpeg);
+    background: url(../asset/background/background4.jpeg);
     height: 100vh;
     -webkit-background-size:cover ;
     background-size: cover;
@@ -67,6 +67,9 @@ header {
 .welcome-text a:hover {
     background: #fff;
     color: #333;
+}
+.footer {
+    text-align: center;
 }
 .fa {
     padding: 10px;
