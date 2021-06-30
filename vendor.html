@@ -1,18 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/vendor.js"></script>
-</head>
-<body>
-    <div class="container">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tazama</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/vendor.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="navbar">
+      <h1><a href="index.html">Tazama</a></h1>
+      <ul class="nav-list">
+        <li><a href="movie.html">Movies</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
     </div>
+    <div id="vendor">
+      <section id="vendor-back">
+        <h1 style="font-family: Pacifico, cursive;">Vendors</h1>
+        <p>Some of our vendors</p>
+      </section>
+      <br>
+      <section id="karibu">
+        <p>Here are some of the vendors and there profiles and if you click on them they should display the current
+          movies being hosted in the site and their respective profiles.</p>
+      </section>
+      <div class="row">
+        <div class="col-sm-4" id="philip">
+          <div class="card">
+            <img
+              src='https://avataaars.io/?avatarStyle=Circle&topType=WinterHat2&accessoriesType=Sunglasses&hatColor=PastelOrange&facialHairType=BeardMajestic&facialHairColor=BrownDark&clotheType=BlazerShirt&clotheColor=Gray01&eyeType=Wink&eyebrowType=Angry&mouthType=Tongue&skinColor=Black'/>
+            <h1>Philip</h1>
+            <p class="title">Owner, Clip Movies</p>
+            <p>Langata</p>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-4" id="swabra">
+          <div class="card">
+            <img
+              src='https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Blank&hatColor=White&clotheType=CollarSweater&clotheColor=Gray01&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown' />
+            <h1>Swabra</h1>
+            <p class="title">Owner, Urban Movies</p>
+            <p>Kileleshwa</p>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+        </div>
+        <br>
+        <div class="col-md-4" id="frank">
+          <div class="card">
+            <img
+              src='https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Wayfarers&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Smile&skinColor=DarkBrown' />
+            <h1>Frank</h1>
+            <p class="title">Owner, Fancy Movies</p>
+            <p>Kasarani</p>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <p><button>Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <section id="display-phil">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/infinite.jpeg" alt="infinite" style="width:100%; height: 425px;" class="img-rounded">
+            <h3>Infinite</h3>
+            <p>KSH 50</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/cowboy.jpeg" alt="Harder they fall" style="width:100%">
+            <h3>Harder they fall</h3>
+            <p>KSH 50</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/miranda-veil.jpeg" alt="Miranda" style="width:100%">
+            <h3>Miranda Veil</h3>
+            <p>KSH 50</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/the man.jpeg" alt="The Man" style="width:100%">
+            <h3>The End of the Worlds</h3>
+            <p>KSH 50</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="display-swab">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/F9.jpeg" alt="Fast 9" style="width:100%">
+            <h3>Fast and Furious 9</h3>
+            <p>KSH 30</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/Kung Fu.jpeg" alt="Kung Fu" style="width:100%">
+            <h3>Kung Fu: Series</h3>
+            <p>KSH 30</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/Flashback.jpeg" alt="miranda-veil" width="100%" height="420" class="img-responsive">
+            <h3>Miranda Veil</h3>
+            <p>KSH 30</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="content">
+            <img src="vendor-images/the man.jpeg" alt="The man" style="width:100%;">
+            <h3>The Man</h3>
+            <p>KSH 30</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <section id="display-frank">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="content">
+            <img src="vendor-images/WWE.jpeg" alt="Heavyweight" width="500" height="600">
+            <h3>Heavyweight Boxing 2021</h3>
+            <p>KSH 40</p>
+          </div>
+          <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+        </div>
+        <div class="col-md-6">
+          <div class="content">
+            <img src="vendor-images/Heavyweight.jpeg" alt="WWE" width="500" height="600">
+            <h3>WWE AEW 2019</h3>
+            <p>KSH 40</p>
+            <a href="form.html" class="btn btn-outline-success" type="button">Purchase/Rent</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <div class="col-md-6" id="info">
+            <h1> OUR SOCIAL LINKS</h1>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#" class="fa fa-pinterest"></a>
+          </div>
+          <div class="col-md-6">
+            <div class="address">
+              <address>
+                <strong>Tazama, Co.</strong><br>
+                1355 Market Street, Suite 900<br>
+                San Francisco, CA 94103<br>
+                <abbr title="Phone">Company No:</abbr>(123) 456-7890
+              </address>
+              <address>
+                <strong>Full Name</strong><br>
+                <a href="mailto:#">Tazama.last@example.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>
