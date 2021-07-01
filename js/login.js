@@ -15,15 +15,15 @@ function login()
 		{
 			alert("Enter valid email id.");
 		}
-		else if(pwd.length < 6 || pwd.length > 6)
+		else if(pwd.length < 6 || pwd.length > 12)
 		{
 			alert("Password min and max length is 6.");
 		}
 		else
 		{
-	alert('Thank You for Login & You are Redirecting to Home page');
+	alert('Thank You for Logging in. You will be Redirected to the Home page. Enjoy');
   //Redirecting to other page or webste code or you can set your own html page.
-       window.location = "movie.html";
+       window.location = "../movie.html";
 			}
 	}
 	//Reset Inputfield code.
