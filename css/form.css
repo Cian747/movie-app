@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 18px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list li{
+    margin-right: 2rem;
+    list-style: none;
+}
+li a{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    border-bottom: 3px solid black;
+    text-decoration:none;
+}
+
+body{
+background: lightblue;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+.field{
+    margin: 20px;
+    text-align: center;
+}
+
+.leg{
+    border: 1px solid;
+    color: white;
+}
+.leg1{
+    text-align: center;
+}
+.col-sm-6 > input[type=text], input[type=email], input[type=tel]{
+ padding: 8px;
+ margin: 8px;
+ width: 98%;
+ border-radius: 10px;
+ border: none;
+ outline: none;
+}
+
+.col-sm-6 > input[type=text], input[type=email], input[type=tel]:hover{
+    cursor: pointer;
+}
+
+#btn{
+    width: 30%;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background:palegreen;
+    color: white;
+    cursor: pointer;
+}
+.field{
+    margin-top:0;
+    margin: 80px;
+    background: slategrey;
+    padding-bottom: 20px;
+}
+
+#mov1{
+    padding: 8px;
+    margin-top: 8px;
+    width: 30%;
+    outline: none;
+    border-radius: 8px;
+}
+#mov1:hover{
+background: darkgrey;
+color:khaki;
+cursor: pointer;
+}
