@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	box-sizing: border-box;
+}
+
+.nav-list{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 18px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list li{
+    margin-right: 2rem;
+    list-style: none;
+}
+li a{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 18px;
+}
+li a:hover{
+    border-bottom: 3px solid black;
+    text-decoration:none;
+}
+
+.about{
+	background: url(../img/bond.jpg)no-repeat;
+	background-size: 55%;
+	background-color: white;
+	overflow: hidden;
+	padding: 100px 0;
+}
+.inner-section{
+	width: 55%;
+	float: right;
+	background-color: whitesmoke;
+	padding: 140px;
+	box-shadow: 12px 12px 8px darkgrey;
+}
+
+.inner-section h1 {
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.text{
+	font-size: 13px;
+	color:black;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.skills button{
+	font-size:13px;
+	text-align: center;
+	letter-spacing: 1px;
+	border: none;
+	border-radius: 20px;
+	padding: 8px;
+	width:80px;
+	background-color: cadetblue;
+	color: white;
+	cursor: pointer;
+}
+
+.skills button:hover{
+	transition:2s;
+	background-color: silver;
+	color: steelblue;
+}
