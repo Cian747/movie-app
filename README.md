@@ -1,6 +1,6 @@
 # TAZAMA
 #### Tazama Movie App, 2021
-#### By **[Cian](https://github.com/Cian747), [Cyrus](https://github.com/cyruswere), [Franklin](https://github.com/Garlinsk)**
+#### By **[Cian](https://github.com/Cian747), [Cyrus](https://github.com/cyruswere), [Franklin](https://github.com/Garlinsk), [Philip](https://github.com/PhilipOdhiambo), [Wycliffe](https://github.com/makoribosire254), [Kwame](https://github.com/kwamemilanya)**
 ## Description
 With the Tazama App you can order your favourite movies and series from the comfort of your home and at an affordable price.
 ## Setup/Installation Requirements
