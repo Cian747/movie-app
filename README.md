@@ -22,5 +22,6 @@ No bugs
 ## Support and contact details
 We are all ready to collaborate
 ### License
+[MIT License](https://github.com/Cian747/movie-app/blob/main/license.txt)
 
 Copyright (c) 2021 **TAZAMA**
